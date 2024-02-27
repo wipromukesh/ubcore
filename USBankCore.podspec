@@ -81,7 +81,6 @@ Pod::Spec.new do |spec|
   #
 
   spec.source       = { :git => "https://github.com/wipromukesh/ubcore.git", :tag => "0.0.3" }
-  spec.vendored_frameworks = 'USBankCore.xcframework'
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -92,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  # spec.source_files  = 'USBankCore/Sources/**/*'
+spec.source_files  = 'USBankCore/Sources/**/*'
 
   # spec.public_header_files = "Classes/**/*.h"
 
