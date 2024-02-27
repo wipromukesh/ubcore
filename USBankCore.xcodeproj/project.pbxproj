@@ -77,9 +77,9 @@
 		260EDF5A2B8D9E0A005864E3 /* USBankCore */ = {
 			isa = PBXGroup;
 			children = (
+				26747F922B8E191F00602059 /* Sources */,
 				260EDF5B2B8D9E0B005864E3 /* USBankCore.h */,
 				260EDF5C2B8D9E0B005864E3 /* USBankCore.docc */,
-				260EDF722B8D9EC5005864E3 /* UBButton.swift */,
 			);
 			path = USBankCore;
 			sourceTree = "<group>";
@@ -98,6 +98,14 @@
 				26747F902B8E186D00602059 /* USBankCore.xcframework */,
 			);
 			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		26747F922B8E191F00602059 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				260EDF722B8D9EC5005864E3 /* UBButton.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
