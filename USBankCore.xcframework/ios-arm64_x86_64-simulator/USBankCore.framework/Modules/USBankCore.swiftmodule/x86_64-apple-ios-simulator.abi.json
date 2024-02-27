@@ -1,0 +1,497 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "USBankCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UBButtonStyle",
+        "printedName": "UBButtonStyle",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(font:padding:bgColor:fgColor:cornerRadius:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UBButtonStyle",
+                "printedName": "USBankCore.UBButtonStyle",
+                "usr": "s:10USBankCore13UBButtonStyleV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Font",
+                "printedName": "SwiftUI.Font",
+                "usr": "s:7SwiftUI4FontV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "hasDefaultArg": true,
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "hasDefaultArg": true,
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10USBankCore13UBButtonStyleV4font7padding7bgColor02fgH012cornerRadiusAC7SwiftUI4FontV_0B10Foundation7CGFloatVAI0H0VApNtcfc",
+            "mangledName": "$s10USBankCore13UBButtonStyleV4font7padding7bgColor02fgH012cornerRadiusAC7SwiftUI4FontV_0B8Graphics7CGFloatVAI0H0VApNtcfc",
+            "moduleName": "USBankCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UBButtonStyle",
+                "printedName": "USBankCore.UBButtonStyle",
+                "usr": "s:10USBankCore13UBButtonStyleV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10USBankCore13UBButtonStyleVACycfc",
+            "mangledName": "$s10USBankCore13UBButtonStyleVACycfc",
+            "moduleName": "USBankCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "makeBody",
+            "printedName": "makeBody(configuration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModifiedContent",
+                "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ButtonStyleConfiguration.Label, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>>, SwiftUI._PaddingLayout>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._ClipEffect<SwiftUI.RoundedRectangle>>, SwiftUI._ScaleEffect>, SwiftUI._AnimationModifier<Swift.Bool>>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModifiedContent",
+                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ButtonStyleConfiguration.Label, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>>, SwiftUI._PaddingLayout>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._ClipEffect<SwiftUI.RoundedRectangle>>, SwiftUI._ScaleEffect>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ModifiedContent",
+                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ButtonStyleConfiguration.Label, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>>, SwiftUI._PaddingLayout>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._ClipEffect<SwiftUI.RoundedRectangle>>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ModifiedContent",
+                            "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ButtonStyleConfiguration.Label, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>>, SwiftUI._PaddingLayout>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ModifiedContent",
+                                "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ButtonStyleConfiguration.Label, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>>, SwiftUI._PaddingLayout>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "ModifiedContent",
+                                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ButtonStyleConfiguration.Label, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>>, SwiftUI._PaddingLayout>",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "ModifiedContent",
+                                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.ButtonStyleConfiguration.Label, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>>",
+                                        "children": [
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "Label",
+                                            "printedName": "SwiftUI.ButtonStyleConfiguration.Label",
+                                            "usr": "s:7SwiftUI24ButtonStyleConfigurationV5LabelV"
+                                          },
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "_EnvironmentKeyWritingModifier",
+                                            "printedName": "SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>",
+                                            "children": [
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "Optional",
+                                                "printedName": "SwiftUI.Font?",
+                                                "children": [
+                                                  {
+                                                    "kind": "TypeNominal",
+                                                    "name": "Font",
+                                                    "printedName": "SwiftUI.Font",
+                                                    "usr": "s:7SwiftUI4FontV"
+                                                  }
+                                                ],
+                                                "usr": "s:Sq"
+                                              }
+                                            ],
+                                            "usr": "s:7SwiftUI30_EnvironmentKeyWritingModifierV"
+                                          }
+                                        ],
+                                        "usr": "s:7SwiftUI15ModifiedContentV"
+                                      },
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "_PaddingLayout",
+                                        "printedName": "SwiftUI._PaddingLayout",
+                                        "usr": "s:7SwiftUI14_PaddingLayoutV"
+                                      }
+                                    ],
+                                    "usr": "s:7SwiftUI15ModifiedContentV"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "_BackgroundStyleModifier",
+                                    "printedName": "SwiftUI._BackgroundStyleModifier<SwiftUI.Color>",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "Color",
+                                        "printedName": "SwiftUI.Color",
+                                        "usr": "s:7SwiftUI5ColorV"
+                                      }
+                                    ],
+                                    "usr": "s:7SwiftUI24_BackgroundStyleModifierV"
+                                  }
+                                ],
+                                "usr": "s:7SwiftUI15ModifiedContentV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "_EnvironmentKeyWritingModifier",
+                                "printedName": "SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Optional",
+                                    "printedName": "SwiftUI.Color?",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "Color",
+                                        "printedName": "SwiftUI.Color",
+                                        "usr": "s:7SwiftUI5ColorV"
+                                      }
+                                    ],
+                                    "usr": "s:Sq"
+                                  }
+                                ],
+                                "usr": "s:7SwiftUI30_EnvironmentKeyWritingModifierV"
+                              }
+                            ],
+                            "usr": "s:7SwiftUI15ModifiedContentV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "_ClipEffect",
+                            "printedName": "SwiftUI._ClipEffect<SwiftUI.RoundedRectangle>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "RoundedRectangle",
+                                "printedName": "SwiftUI.RoundedRectangle",
+                                "usr": "s:7SwiftUI16RoundedRectangleV"
+                              }
+                            ],
+                            "usr": "s:7SwiftUI11_ClipEffectV"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI15ModifiedContentV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_ScaleEffect",
+                        "printedName": "SwiftUI._ScaleEffect",
+                        "usr": "s:7SwiftUI12_ScaleEffectV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI15ModifiedContentV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_AnimationModifier",
+                    "printedName": "SwiftUI._AnimationModifier<Swift.Bool>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI18_AnimationModifierV"
+                  }
+                ],
+                "usr": "s:7SwiftUI15ModifiedContentV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ButtonStyleConfiguration",
+                "printedName": "SwiftUI.ButtonStyleConfiguration",
+                "usr": "s:7SwiftUI24ButtonStyleConfigurationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10USBankCore13UBButtonStyleV8makeBody13configurationQr7SwiftUI06ButtonD13ConfigurationV_tF",
+            "mangledName": "$s10USBankCore13UBButtonStyleV8makeBody13configurationQr7SwiftUI06ButtonD13ConfigurationV_tF",
+            "moduleName": "USBankCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10USBankCore13UBButtonStyleV",
+        "mangledName": "$s10USBankCore13UBButtonStyleV",
+        "moduleName": "USBankCore",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ButtonStyle",
+            "printedName": "ButtonStyle",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModifiedContent",
+                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ButtonStyleConfiguration.Label, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>>, SwiftUI._PaddingLayout>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._ClipEffect<SwiftUI.RoundedRectangle>>, SwiftUI._ScaleEffect>, SwiftUI._AnimationModifier<Swift.Bool>>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ModifiedContent",
+                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ButtonStyleConfiguration.Label, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>>, SwiftUI._PaddingLayout>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._ClipEffect<SwiftUI.RoundedRectangle>>, SwiftUI._ScaleEffect>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ModifiedContent",
+                            "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ButtonStyleConfiguration.Label, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>>, SwiftUI._PaddingLayout>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>, SwiftUI._ClipEffect<SwiftUI.RoundedRectangle>>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ModifiedContent",
+                                "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ButtonStyleConfiguration.Label, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>>, SwiftUI._PaddingLayout>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "ModifiedContent",
+                                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ButtonStyleConfiguration.Label, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>>, SwiftUI._PaddingLayout>, SwiftUI._BackgroundStyleModifier<SwiftUI.Color>>",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "ModifiedContent",
+                                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ButtonStyleConfiguration.Label, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>>, SwiftUI._PaddingLayout>",
+                                        "children": [
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "ModifiedContent",
+                                            "printedName": "SwiftUI.ModifiedContent<SwiftUI.ButtonStyleConfiguration.Label, SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>>",
+                                            "children": [
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "Label",
+                                                "printedName": "SwiftUI.ButtonStyleConfiguration.Label",
+                                                "usr": "s:7SwiftUI24ButtonStyleConfigurationV5LabelV"
+                                              },
+                                              {
+                                                "kind": "TypeNominal",
+                                                "name": "_EnvironmentKeyWritingModifier",
+                                                "printedName": "SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Font?>",
+                                                "children": [
+                                                  {
+                                                    "kind": "TypeNominal",
+                                                    "name": "Optional",
+                                                    "printedName": "SwiftUI.Font?",
+                                                    "children": [
+                                                      {
+                                                        "kind": "TypeNominal",
+                                                        "name": "Font",
+                                                        "printedName": "SwiftUI.Font",
+                                                        "usr": "s:7SwiftUI4FontV"
+                                                      }
+                                                    ],
+                                                    "usr": "s:Sq"
+                                                  }
+                                                ],
+                                                "usr": "s:7SwiftUI30_EnvironmentKeyWritingModifierV"
+                                              }
+                                            ],
+                                            "usr": "s:7SwiftUI15ModifiedContentV"
+                                          },
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "_PaddingLayout",
+                                            "printedName": "SwiftUI._PaddingLayout",
+                                            "usr": "s:7SwiftUI14_PaddingLayoutV"
+                                          }
+                                        ],
+                                        "usr": "s:7SwiftUI15ModifiedContentV"
+                                      },
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "_BackgroundStyleModifier",
+                                        "printedName": "SwiftUI._BackgroundStyleModifier<SwiftUI.Color>",
+                                        "children": [
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "Color",
+                                            "printedName": "SwiftUI.Color",
+                                            "usr": "s:7SwiftUI5ColorV"
+                                          }
+                                        ],
+                                        "usr": "s:7SwiftUI24_BackgroundStyleModifierV"
+                                      }
+                                    ],
+                                    "usr": "s:7SwiftUI15ModifiedContentV"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "_EnvironmentKeyWritingModifier",
+                                    "printedName": "SwiftUI._EnvironmentKeyWritingModifier<SwiftUI.Color?>",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "Optional",
+                                        "printedName": "SwiftUI.Color?",
+                                        "children": [
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "Color",
+                                            "printedName": "SwiftUI.Color",
+                                            "usr": "s:7SwiftUI5ColorV"
+                                          }
+                                        ],
+                                        "usr": "s:Sq"
+                                      }
+                                    ],
+                                    "usr": "s:7SwiftUI30_EnvironmentKeyWritingModifierV"
+                                  }
+                                ],
+                                "usr": "s:7SwiftUI15ModifiedContentV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "_ClipEffect",
+                                "printedName": "SwiftUI._ClipEffect<SwiftUI.RoundedRectangle>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "RoundedRectangle",
+                                    "printedName": "SwiftUI.RoundedRectangle",
+                                    "usr": "s:7SwiftUI16RoundedRectangleV"
+                                  }
+                                ],
+                                "usr": "s:7SwiftUI11_ClipEffectV"
+                              }
+                            ],
+                            "usr": "s:7SwiftUI15ModifiedContentV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "_ScaleEffect",
+                            "printedName": "SwiftUI._ScaleEffect",
+                            "usr": "s:7SwiftUI12_ScaleEffectV"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI15ModifiedContentV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_AnimationModifier",
+                        "printedName": "SwiftUI._AnimationModifier<Swift.Bool>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI18_AnimationModifierV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI15ModifiedContentV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI11ButtonStyleP",
+            "mangledName": "$s7SwiftUI11ButtonStyleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/mu20512697\/Desktop\/workspace\/USBankCore\/USBankCore\/UBButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 200,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/mu20512697\/Desktop\/workspace\/USBankCore\/USBankCore\/UBButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 297,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/mu20512697\/Desktop\/workspace\/USBankCore\/USBankCore\/UBButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 964,
+      "length": 3,
+      "value": "0.9"
+    },
+    {
+      "filePath": "\/Users\/mu20512697\/Desktop\/workspace\/USBankCore\/USBankCore\/UBButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 970,
+      "length": 3,
+      "value": "1.0"
+    }
+  ]
+}
