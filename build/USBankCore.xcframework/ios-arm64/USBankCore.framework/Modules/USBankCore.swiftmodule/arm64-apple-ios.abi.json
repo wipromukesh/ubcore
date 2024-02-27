@@ -1,0 +1,64 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "USBankCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/mu20512697\/Desktop\/workspace\/USBankCore\/USBankCore\/UBButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 193,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/mu20512697\/Desktop\/workspace\/USBankCore\/USBankCore\/UBButton.swift",
+      "kind": "StringLiteral",
+      "offset": 219,
+      "length": 12,
+      "value": "\"AppPrimary\""
+    },
+    {
+      "filePath": "\/Users\/mu20512697\/Desktop\/workspace\/USBankCore\/USBankCore\/UBButton.swift",
+      "kind": "StringLiteral",
+      "offset": 257,
+      "length": 14,
+      "value": "\"AppSecondary\""
+    },
+    {
+      "filePath": "\/Users\/mu20512697\/Desktop\/workspace\/USBankCore\/USBankCore\/UBButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 305,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/mu20512697\/Desktop\/workspace\/USBankCore\/USBankCore\/UBButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 614,
+      "length": 3,
+      "value": "0.9"
+    },
+    {
+      "filePath": "\/Users\/mu20512697\/Desktop\/workspace\/USBankCore\/USBankCore\/UBButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 620,
+      "length": 3,
+      "value": "1.0"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+framework module USBankCore {
+  umbrella header "USBankCore.h"
+  export *
+
+  module * { export * }
+}
+
+module USBankCore.Swift {
+  header "USBankCore-Swift.h"
+  requires objc
+}
