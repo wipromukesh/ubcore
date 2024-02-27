@@ -2,6 +2,32 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/mu20512697/Library/Developer/Xcode/DerivedData/USBankCore-ccvtzslluabjbkhbniqqybbnxgck/Build/Intermediates.noindex/ArchiveIntermediates/USBankCore/InstallationBuildProductsLocation/Library/Frameworks/USBankCore.framework/USBankCore'
 relocations:
-  - { offsetInCU: 0x33, offset: 0x33, size: 0x8, addend: 0x0, symName: _USBankCoreVersionString, symObjAddr: 0x0, symBinAddr: 0x3FC0, symSize: 0x0 }
-  - { offsetInCU: 0x67, offset: 0x67, size: 0x8, addend: 0x0, symName: _USBankCoreVersionNumber, symObjAddr: 0x30, symBinAddr: 0x3FF0, symSize: 0x0 }
+  - { offsetInCU: 0x34, offset: 0x53E24, size: 0x8, addend: 0x0, symName: _USBankCoreVersionString, symObjAddr: 0x0, symBinAddr: 0x3B28, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x53E59, size: 0x8, addend: 0x0, symName: _USBankCoreVersionNumber, symObjAddr: 0x30, symBinAddr: 0x3B58, symSize: 0x0 }
+  - { offsetInCU: 0x122, offset: 0x53F91, size: 0x8, addend: 0x0, symName: '_$s10USBankCore13UBButtonStyleV8makeBody13configurationQr7SwiftUI06ButtonD13ConfigurationV_tF', symObjAddr: 0x0, symBinAddr: 0x2D08, symSize: 0x4E0 }
+  - { offsetInCU: 0x3D8, offset: 0x54247, size: 0x8, addend: 0x0, symName: '_$s10USBankCore13UBButtonStyleV7SwiftUI06ButtonD0AadEP8makeBody13configuration0I0QzAD0gD13ConfigurationV_tFTW', symObjAddr: 0x520, symBinAddr: 0x3228, symSize: 0x4 }
+  - { offsetInCU: 0x3F5, offset: 0x54264, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x4E0, symBinAddr: 0x31E8, symSize: 0x40 }
+  - { offsetInCU: 0x409, offset: 0x54278, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI17EnvironmentValuesV4fontAA4FontVSgvpACTKq', symObjAddr: 0x524, symBinAddr: 0x322C, symSize: 0x28 }
+  - { offsetInCU: 0x421, offset: 0x54290, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI17EnvironmentValuesV4fontAA4FontVSgvpACTkq', symObjAddr: 0x54C, symBinAddr: 0x3254, symSize: 0x28 }
+  - { offsetInCU: 0x439, offset: 0x542A8, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI17EnvironmentValuesV15foregroundColorAA0F0VSgvpACTKq', symObjAddr: 0x574, symBinAddr: 0x327C, symSize: 0x28 }
+  - { offsetInCU: 0x451, offset: 0x542C0, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI17EnvironmentValuesV15foregroundColorAA0F0VSgvpACTkq', symObjAddr: 0x59C, symBinAddr: 0x32A4, symSize: 0x28 }
+  - { offsetInCU: 0x469, offset: 0x542D8, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI16RoundedRectangleVWOc', symObjAddr: 0x5C4, symBinAddr: 0x32CC, symSize: 0x44 }
+  - { offsetInCU: 0x47D, offset: 0x542EC, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI16RoundedRectangleVWOh', symObjAddr: 0x608, symBinAddr: 0x3310, symSize: 0x3C }
+  - { offsetInCU: 0x491, offset: 0x54300, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI15ModifiedContentVyACyACyACyACyACyACyAA24ButtonStyleConfigurationV5LabelVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAA14_PaddingLayoutVGAA011_BackgroundfL0VyAA5ColorVGGAIyAUSgGGAA11_ClipEffectVyAA16RoundedRectangleVGGAA06_ScaleS0VGAA010_AnimationL0VySbGGWOb', symObjAddr: 0x6C4, symBinAddr: 0x33CC, symSize: 0x48 }
+  - { offsetInCU: 0x4A5, offset: 0x54314, size: 0x8, addend: 0x0, symName: '_$s10USBankCore13UBButtonStyleV7SwiftUI06ButtonD0AA4BodyAdEP_AD4ViewPWT', symObjAddr: 0x70C, symBinAddr: 0x3414, symSize: 0x10 }
+  - { offsetInCU: 0x4B9, offset: 0x54328, size: 0x8, addend: 0x0, symName: '_$s10USBankCore13UBButtonStyleVwCP', symObjAddr: 0x71C, symBinAddr: 0x3424, symSize: 0x30 }
+  - { offsetInCU: 0x4CD, offset: 0x5433C, size: 0x8, addend: 0x0, symName: '_$s10USBankCore13UBButtonStyleVwxx', symObjAddr: 0x74C, symBinAddr: 0x3454, symSize: 0x30 }
+  - { offsetInCU: 0x4E1, offset: 0x54350, size: 0x8, addend: 0x0, symName: '_$s10USBankCore13UBButtonStyleVwcp', symObjAddr: 0x77C, symBinAddr: 0x3484, symSize: 0x54 }
+  - { offsetInCU: 0x4F5, offset: 0x54364, size: 0x8, addend: 0x0, symName: '_$s10USBankCore13UBButtonStyleVwca', symObjAddr: 0x7D0, symBinAddr: 0x34D8, symSize: 0x84 }
+  - { offsetInCU: 0x509, offset: 0x54378, size: 0x8, addend: 0x0, symName: ___swift_memcpy40_8, symObjAddr: 0x854, symBinAddr: 0x355C, symSize: 0x14 }
+  - { offsetInCU: 0x51D, offset: 0x5438C, size: 0x8, addend: 0x0, symName: '_$s10USBankCore13UBButtonStyleVwta', symObjAddr: 0x868, symBinAddr: 0x3570, symSize: 0x64 }
+  - { offsetInCU: 0x531, offset: 0x543A0, size: 0x8, addend: 0x0, symName: '_$s10USBankCore13UBButtonStyleVwet', symObjAddr: 0x8CC, symBinAddr: 0x35D4, symSize: 0x48 }
+  - { offsetInCU: 0x545, offset: 0x543B4, size: 0x8, addend: 0x0, symName: '_$s10USBankCore13UBButtonStyleVwst', symObjAddr: 0x914, symBinAddr: 0x361C, symSize: 0x48 }
+  - { offsetInCU: 0x559, offset: 0x543C8, size: 0x8, addend: 0x0, symName: '_$s10USBankCore13UBButtonStyleVMa', symObjAddr: 0x95C, symBinAddr: 0x3664, symSize: 0x10 }
+  - { offsetInCU: 0x56D, offset: 0x543DC, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI15ModifiedContentVyACyACyACyACyACyACyAA24ButtonStyleConfigurationV5LabelVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAA14_PaddingLayoutVGAA011_BackgroundfL0VyAA5ColorVGGAIyAUSgGGAA11_ClipEffectVyAA16RoundedRectangleVGGAA06_ScaleS0VGAA010_AnimationL0VySbGGACyxq_GAA4ViewA2AA13_RzAA0xL0R_rlWl', symObjAddr: 0x970, symBinAddr: 0x3678, symSize: 0xA4 }
+  - { offsetInCU: 0x581, offset: 0x543F0, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledNameAbstract, symObjAddr: 0xA14, symBinAddr: 0x371C, symSize: 0x44 }
+  - { offsetInCU: 0x595, offset: 0x54404, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI15ModifiedContentVyACyACyACyACyAA24ButtonStyleConfigurationV5LabelVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAA14_PaddingLayoutVGAA011_BackgroundfL0VyAA5ColorVGGAIyAUSgGGAA11_ClipEffectVyAA16RoundedRectangleVGGACyxq_GAA4ViewA2AA6_RzAA0vL0R_rlWl', symObjAddr: 0xA58, symBinAddr: 0x3760, symSize: 0x84 }
+  - { offsetInCU: 0x5A9, offset: 0x54418, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI15ModifiedContentVyACyACyACyAA24ButtonStyleConfigurationV5LabelVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAA14_PaddingLayoutVGAA011_BackgroundfL0VyAA5ColorVGGAIyAUSgGGACyxq_GAA4ViewA2AA0_RzAA0rL0R_rlWl', symObjAddr: 0xADC, symBinAddr: 0x37E4, symSize: 0x84 }
+  - { offsetInCU: 0x5BD, offset: 0x5442C, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI15ModifiedContentVyACyACyAA24ButtonStyleConfigurationV5LabelVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGAA14_PaddingLayoutVGAA011_BackgroundfL0VyAA5ColorVGGACyxq_GAA4ViewA2aYRzAA0rL0R_rlWl', symObjAddr: 0xB60, symBinAddr: 0x3868, symSize: 0xA4 }
+  - { offsetInCU: 0x5D1, offset: 0x54440, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI15ModifiedContentVyAA24ButtonStyleConfigurationV5LabelVAA30_EnvironmentKeyWritingModifierVyAA4FontVSgGGACyxq_GAA4ViewA2aPRzAA0nL0R_rlWl', symObjAddr: 0xC6C, symBinAddr: 0x3974, symSize: 0x84 }
 ...

@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/USBankCore.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		WkTqFDLakce5VhnQHMnYmXxqtis=
+		ARE/diDJ70iI9IsnFxhTOWr0Upk=
 		</data>
 		<key>Modules/USBankCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		7jSqllo1yV4BzQfWIwoyW+OhMYs=
+		GuJ+bxY2OFsIbg9lGGahh0kBmvs=
 		</data>
 		<key>Modules/USBankCore.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/USBankCore.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		7jSqllo1yV4BzQfWIwoyW+OhMYs=
+		GuJ+bxY2OFsIbg9lGGahh0kBmvs=
 		</data>
 		<key>Modules/USBankCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		a9xKB76AQWtNccxNSYlLaLCTkhA=
+		KVhHvLxOoG5tR5jbhf5FzRrc8uY=
 		</data>
 		<key>Modules/USBankCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		WkTqFDLakce5VhnQHMnYmXxqtis=
+		ARE/diDJ70iI9IsnFxhTOWr0Upk=
 		</data>
 		<key>Modules/USBankCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		2+58nf0xA3ymnLghY0EZVH8EmG4=
+		YTFv+DN/0oU0TlKeH7s5sinL6Fk=
 		</data>
 		<key>Modules/USBankCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/USBankCore.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		2+58nf0xA3ymnLghY0EZVH8EmG4=
+		YTFv+DN/0oU0TlKeH7s5sinL6Fk=
 		</data>
 		<key>Modules/USBankCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		S5oTBfcdKTV3dZDD8JOEGt4GPTU=
+		4rBriIfwfUBWyI2fpJgUhPS24ho=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,14 +81,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fbgT0PecMpcHuUDmCR+L55UhB87XgwL8X/K8TJjyr7Q=
+			B19bAq8Lp2BdVbDnqEfmiRN2dLh721WhcV7ckU1tw2c=
 			</data>
 		</dict>
 		<key>Modules/USBankCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yqh2MAGGGiiGoMfg9kzlQx2GgtRcTe9qeZQzx3oBoTI=
+			n+qgOYDUqH4njRjobR2tR4Im0Xk8xkpGl/lXYl5RTB4=
 			</data>
 		</dict>
 		<key>Modules/USBankCore.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -102,28 +102,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yqh2MAGGGiiGoMfg9kzlQx2GgtRcTe9qeZQzx3oBoTI=
+			n+qgOYDUqH4njRjobR2tR4Im0Xk8xkpGl/lXYl5RTB4=
 			</data>
 		</dict>
 		<key>Modules/USBankCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YWYZyMig3fRcwJHFDyPY9lww9o1BiEDsHbFu8jNKpos=
+			Pj9NEcyljTDjLe8rm6ykZkMRzCJ+Tmfx2+OPoRsUfjw=
 			</data>
 		</dict>
 		<key>Modules/USBankCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fbgT0PecMpcHuUDmCR+L55UhB87XgwL8X/K8TJjyr7Q=
+			B19bAq8Lp2BdVbDnqEfmiRN2dLh721WhcV7ckU1tw2c=
 			</data>
 		</dict>
 		<key>Modules/USBankCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zczvz4ZgbkdgmogtGmHryZMZczGVj7pMvlhAFGwm+IY=
+			B643lT1QKLLLombT6EFYffk9p3yXfghRYYpaOs7UIeM=
 			</data>
 		</dict>
 		<key>Modules/USBankCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -137,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zczvz4ZgbkdgmogtGmHryZMZczGVj7pMvlhAFGwm+IY=
+			B643lT1QKLLLombT6EFYffk9p3yXfghRYYpaOs7UIeM=
 			</data>
 		</dict>
 		<key>Modules/USBankCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GOUpqhbIM9bYmBvWEW2Q33yLJ+PaNdJ0cJ7ggbcQllY=
+			V6tR8vb/vHWImwVq2WCKwXeLqIdxOOQcb23P7zWNA5M=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -8,3 +8,8 @@ import SwiftUI
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public struct UBButtonStyle : SwiftUI.ButtonStyle {
+  public func makeBody(configuration: USBankCore.UBButtonStyle.Configuration) -> some SwiftUI.View
+  
+  public typealias Body = @_opaqueReturnTypeOf("$s10USBankCore13UBButtonStyleV8makeBody13configurationQr7SwiftUI06ButtonD13ConfigurationV_tF", 0) __
+}
