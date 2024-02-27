@@ -8,9 +8,9 @@
 
 Pod::Spec.new do | spec |
     spec.name         = "USBankCore"
-    spec.version      = “0.0.2”
+    spec.version      = "0.0.2"
     spec.summary      = "USBankCore: USBankCore"
-    spec.description  = “test button description"
+    spec.description  = "test button description"
     spec.homepage     = "https://github.com/wipromukesh/ubcore.git"
     spec.license = { :type => "MIT", :file => "LICENSE" }
     spec.author             = { "wipromukesh" => "mukesh.lokare@wipro.com" }
