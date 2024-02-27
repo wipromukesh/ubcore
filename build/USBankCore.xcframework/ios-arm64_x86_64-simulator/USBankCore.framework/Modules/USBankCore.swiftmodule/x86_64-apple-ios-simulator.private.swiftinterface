@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target x86_64-apple-ios17.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name USBankCore
+// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name USBankCore
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Swift
 import SwiftUI
@@ -9,6 +9,8 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 public struct UBButtonStyle : SwiftUI.ButtonStyle {
+  public init(font: SwiftUI.Font, padding: CoreFoundation.CGFloat, bgColor: SwiftUI.Color = Color.blue, fgColor: SwiftUI.Color = Color.secondary, cornerRadius: CoreFoundation.CGFloat)
+  public init()
   public func makeBody(configuration: USBankCore.UBButtonStyle.Configuration) -> some SwiftUI.View
   
   public typealias Body = @_opaqueReturnTypeOf("$s10USBankCore13UBButtonStyleV8makeBody13configurationQr7SwiftUI06ButtonD13ConfigurationV_tF", 0) __

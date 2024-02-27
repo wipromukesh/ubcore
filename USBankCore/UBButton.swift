@@ -10,9 +10,20 @@ import SwiftUI
 public struct UBButtonStyle: ButtonStyle {
     var font: Font = .title
     var padding: CGFloat = 8
-    var bgColor = Color("AppPrimary")
-    var fgColor = Color("AppSecondary")
+    var bgColor = Color.blue
+    var fgColor = Color.secondary
     var cornerRadius: CGFloat = 8
+    
+    public init(font: Font, padding: CGFloat, bgColor: SwiftUI.Color = Color.blue, fgColor: SwiftUI.Color = Color.secondary, cornerRadius: CGFloat) {
+        self.font = font
+        self.padding = padding
+        self.bgColor = bgColor
+        self.fgColor = fgColor
+        self.cornerRadius = cornerRadius
+    }
+    
+    public init() {}
+    
     public func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .font(font)
