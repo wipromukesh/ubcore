@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = "Adding framework to create custom button"
 
-  spec.homepage     = "http://EXAMPLE/USBankCore"
+  spec.homepage     = "https://github.com/wipromukesh/ubcore"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
