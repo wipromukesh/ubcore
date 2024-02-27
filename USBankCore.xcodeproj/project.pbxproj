@@ -12,6 +12,7 @@
 		260EDF682B8D9E0B005864E3 /* USBankCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EDF672B8D9E0B005864E3 /* USBankCoreTests.swift */; };
 		260EDF692B8D9E0B005864E3 /* USBankCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 260EDF5B2B8D9E0B005864E3 /* USBankCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		260EDF732B8D9EC5005864E3 /* UBButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260EDF722B8D9EC5005864E3 /* UBButton.swift */; };
+		26747F912B8E186D00602059 /* USBankCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26747F902B8E186D00602059 /* USBankCore.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		260EDF622B8D9E0B005864E3 /* USBankCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = USBankCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		260EDF672B8D9E0B005864E3 /* USBankCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USBankCoreTests.swift; sourceTree = "<group>"; };
 		260EDF722B8D9EC5005864E3 /* UBButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UBButton.swift; sourceTree = "<group>"; };
+		26747F902B8E186D00602059 /* USBankCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = USBankCore.xcframework; path = build/USBankCore.xcframework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26747F912B8E186D00602059 /* USBankCore.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +58,7 @@
 		260EDF4E2B8D9E0A005864E3 = {
 			isa = PBXGroup;
 			children = (
+				26747F8B2B8E17F500602059 /* Frameworks */,
 				260EDF5A2B8D9E0A005864E3 /* USBankCore */,
 				260EDF662B8D9E0B005864E3 /* USBankCoreTests */,
 				260EDF592B8D9E0A005864E3 /* Products */,
@@ -86,6 +90,14 @@
 				260EDF672B8D9E0B005864E3 /* USBankCoreTests.swift */,
 			);
 			path = USBankCoreTests;
+			sourceTree = "<group>";
+		};
+		26747F8B2B8E17F500602059 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26747F902B8E186D00602059 /* USBankCore.xcframework */,
+			);
+			path = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

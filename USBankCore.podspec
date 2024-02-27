@@ -81,7 +81,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source       = { :git => "https://github.com/wipromukesh/ubcore.git", :tag => "0.0.3" }
-  spec.vendored_frameworks = "USBankCore.xcframework"
+  spec.vendored_frameworks = "Frameworks/USBankCore.xcframework"
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
