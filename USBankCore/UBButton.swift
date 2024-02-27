@@ -7,13 +7,13 @@
 
 import SwiftUI
 
-struct UBButtonStyle: ButtonStyle {
+public struct UBButtonStyle: ButtonStyle {
     var font: Font = .title
     var padding: CGFloat = 8
     var bgColor = Color("AppPrimary")
     var fgColor = Color("AppSecondary")
     var cornerRadius: CGFloat = 8
-    func makeBody(configuration: Configuration) -> some View {
+    public func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .font(font)
             .padding(padding)
