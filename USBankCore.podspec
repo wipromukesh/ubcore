@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "USBankCore"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.5"
   spec.summary      = "Adding framework for button integration."
   spec.description  = "Adding framework for button integration. add, sum etc"
   spec.homepage     = "https://github.com/wipromukesh/ubcore"
@@ -21,6 +21,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target  = '15.0'
   spec.source       = { :git => "https://github.com/wipromukesh/ubcore.git", :tag => "#{spec.version}" }
   spec.source_files  = "USBankCore/**/*.{h,m}"
+  spec.vendored_frameworks = 'USBankCore.xcframework'
   spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
